@@ -50,13 +50,6 @@
     </mailingLists>
 
 
-    <scm>
-        <connection>scm:git:git://github.com/Glassdoor/planout4j.git</connection>
-        <developerConnection>scm:git:git@github.com:Glassdoor/planout4j.git</developerConnection>
-        <url>https://github.com/Glassdoor/planout4j</url>
-        <tag>HEAD</tag>
-    </scm>
-
     <modules>
         <module>core</module>
         <module>compiler</module>
@@ -417,12 +410,12 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <id>returnly-snapshots</id>
+            <url>http://global-nexus-repo.returnly.sdm.network/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>returnly-releases</id>
+            <url>http://global-nexus-repo.returnly.sdm.network/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
 
